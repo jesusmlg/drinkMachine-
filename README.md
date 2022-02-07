@@ -1,3 +1,12 @@
+# Comments
+
+- Tengo el IDE preparado para un desarrollo con la empresa actual y por eso he utilizado la nomenclatura y funcionalidades de php 7.3 en lugar de 8 u 8.1.
+- Por el mismo motivo he utilizado snake case en el nombre de las variables ya que tengo montados todos mis atajos de teclado de esta manera.
+- Me hubiera gustado montar un contenedor de inyección de dependencias y varios buses (command bus, event bus) para lanzar eventos pero no tenía tiempo.
+- He montado algunos tests pero hay cosas que me han quedado por testear aunque lo que está hecho está todo en green.
+- En la parte de eventos de dominio he utilizado la función uniqueid en lugar de UUID con la librería por ejemplo de Ramsey/Uuid para no instalar más dependencias.
+- Algunas cosas me han quedado en el tintero ya que no dispongo de mucho tiempo debido al trabajo y las circunstancias personales para realizar la prueba, pero al menos quería poder enviarla.
+
 # Coffee Machine
 
 Coffee Machine is an awesome console application that from a few input parameters (drink type, amount of money, number of sugars, extra hot check) is capable to order a drink and show a cool message of the desired drink.
